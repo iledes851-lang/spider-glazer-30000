@@ -9,17 +9,17 @@ table {
 }
 
 th, td {
-    border: 4px solid rgb(255, 255, 255);
+    border: 4px solid rgb(7, 7, 7);
     padding: 10px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 h1 {
     text-align: center;
     margin: 20px;
-    border: 4px solid rgb(219, 252, 255);
-    color: rgb(113, 247, 252);
+    border: 4px solid rgb(81, 42, 27);
+    color: rgb(80, 35, 7);
     border-radius: 30px;
     font-family: cursive;
     font-size: 40px;
@@ -28,15 +28,15 @@ h1 {
 p {
     text-align: center;
     margin: 20px;
-    font-family:monospace;
-    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(96, 32, 2);
     font-size: 17px;
 }
 
 h2 {
     text-align: center;
     margin: 20px;
-    color: rgb(113, 247, 252);
+    color: rgb(100, 47, 15);
     font-family: cursive;
     font-size: 20px;
 }
@@ -54,7 +54,7 @@ p {
 h2 {
     text-align: center;
     margin: 20px;
-    color: rgb(113, 247, 252);
+    color: rgb(124, 78, 49);
     font-family: cursive;
     font-size: 20px;
 }
@@ -82,7 +82,7 @@ p {
 h3 {
     text-align: center;
     margin: 20px;
-    color: rgb(113, 247, 252);
+   color: rgb(124, 78, 49);
     font-family: cursive;
     font-size: 20px;
 }
@@ -95,7 +95,7 @@ p {
 h2 {
     text-align: center;
     margin: 20px;
-    color: rgb(113, 247, 252);
+    color: rgb(124, 78, 49);
     font-family: cursive;
     font-size: 20px;
 }
@@ -105,9 +105,26 @@ img {
 }
 
 img {
-    border: 10px solid rgb(255, 255, 255);
+    border: 10px solid rgb(0, 0, 0);
 }
 
 body {
-    background-color: rgb(60, 5, 5);
+    background-color: rgb(255, 247, 230);
 }
+
+nav {
+    min-height: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(234, 220, 201);
+}
+
+.nav-link {
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
